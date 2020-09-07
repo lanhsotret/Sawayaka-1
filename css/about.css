@@ -124,68 +124,67 @@ body {
   margin: auto 0px; }
 
 .fold1 {
-  margin-bottom: 90px; }
+  margin-bottom: 80px; }
+  .fold1-h3 {
+    margin: 45px auto 32px; }
   .fold1-figure {
-    position: relative;
-    margin-right: 20px; }
+    display: table;
+    margin: 0px auto;
+    position: relative; }
     .fold1-figure .img-clover {
       position: absolute;
-      bottom: -30px;
-      right: 25px;
-      z-index: 1; }
-  .fold1-content {
-    max-width: 560px;
-    width: 100%; }
-    .fold1-content > p {
-      line-height: 1.8; }
-      .fold1-content > p:not(:last-of-type) {
-        margin-bottom: 30px;
-        letter-spacing: 0.073rem; }
+      right: 30px;
+      bottom: -40px; }
+  .fold1-p {
+    max-width: 830px;
+    letter-spacing: 0.05rem;
+    text-align: center;
+    line-height: 1.8;
+    width: 100%;
+    margin: 0px auto; }
+  .fold1-wrap {
+    max-width: 620px;
+    display: flex;
+    margin: 35px auto 0px;
+    justify-content: space-between; }
+    .fold1-wrap figure {
+      padding: 0px 10px; }
+      .fold1-wrap figure span {
+        display: block;
+        text-align: center;
+        line-height: 1;
+        margin-top: 12px; }
 
 .fold2 {
-  margin-bottom: 75px; }
-  .fold2-ul {
+  padding: 80px 0px 40px;
+  position: relative; }
+  .fold2::after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    max-width: 1120px;
     width: 100%;
-    letter-spacing: 0.1rem;
-    padding-top: 15px;
-    border-top: 1px solid #cccccc; }
-    .fold2-ul:first-of-type {
-      margin-right: 20px; }
-    .fold2-ul .li-title {
-      font-weight: bold;
-      margin-bottom: 5px; }
-    .fold2-ul .li-content dl {
-      display: flex; }
-    .fold2-ul .li-content dd {
-      margin-left: 35px; }
-    .fold2-ul .li-list {
-      list-style-type: disc;
-      list-style-position: inside;
-      margin-left: 6px; }
-      .fold2-ul .li-list span {
-        margin-left: 20px; }
+    transform: translateX(-50%);
+    height: 1px;
+    background: #cccccc;
+    z-index: 1; }
+  .fold2-wrap {
+    max-width: 1140px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0px auto;
+    justify-content: space-between; }
   .fold2-li {
-    line-height: 2; }
-
-.fold3-ul {
-  max-width: 340px;
-  width: 100%; }
-  .fold3-ul:not(:last-of-type) {
-    margin-right: 20px; }
-  .fold3-ul .li-content {
-    margin-bottom: 15px; }
-    .fold3-ul .li-content span {
+    max-width: 360px;
+    padding: 0px 10px;
+    margin-bottom: 55px;
+    letter-spacing: 0.06rem;
+    width: 32.5vw; }
+    .fold2-li span {
       display: block;
       line-height: 1;
-      margin: 28px 0px 15px; }
-    .fold3-ul .li-content p {
-      line-height: 1.8;
-      letter-spacing: 0.15rem; }
-  .fold3-ul .ul-list {
-    line-height: 1.8;
-    padding-top: 20px;
-    border-top: 1px solid #cccccc; }
-    .fold3-ul .ul-list li {
-      list-style-type: disc;
-      list-style-position: inside;
-      margin-left: 6px; }
+      margin: 20px auto 12px; }
+    .fold2-li p {
+      line-height: 1.8; }
