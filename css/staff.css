@@ -1,0 +1,89 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px; }
+
+html {
+  font-size: 10px;
+  line-height: 1;
+  color: #555555; }
+  html a {
+    outline: none !important;
+    text-decoration: none;
+    color: inherit; }
+
+img {
+  display: block; }
+
+body {
+  font-size: 1.6rem;
+  font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", "ＭＳ ゴシック", sans-serif;
+  padding: 0 10rem;
+  font-weight: 400; }
+  @media screen and (max-width: 768px) {
+    body {
+      font-size: 1.4rem; } }
+
+.font-b {
+  font-weight: bold; }
+
+.container {
+  max-width: 1120px;
+  width: 100%;
+  margin: 0px auto; }
+
+.p-fixed {
+  position: fixed;
+  top: 0px;
+  left: 0px; }
+
+.p-a_l {
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
+.p-r_t {
+  position: relative;
+  z-index: 0; }
+
+.cenrl-a_l {
+  left: 50%;
+  transform: translateX(-50%); }
+
+.w-h-100 {
+  width: 100%;
+  height: 100%; }
+
+.w-100 {
+  width: 100%; }
+
+.w-50 {
+  width: 50%; }
+
+.w-50v {
+  width: 50vw; }
+
+.h-100 {
+  height: 100%; }
+
+.w-100v {
+  width: 100vw; }
+
+.h-100v {
+  height: 100vh; }
+
+.d-block {
+  display: block; }
+
+.d-table {
+  display: table; }
+
+.m-au {
+  margin: auto; }
+
+.m-0-au {
+  margin: 0px auto; }
+
+.m-au-0 {
+  margin: auto 0px; }
